@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <!--required meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--website title-->
+    <title>MD: Yeasin Hossain || Portfolio Website</title>
+    <!--website favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="source/img/favicon.png">
+    
+    <!--load css files-->
+    <link rel="stylesheet" href="vendor/css/normalize.css">
+    <link rel="stylesheet" href="vendor/css/jquery.animatedheadline.css">
+   
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    
+    <link rel="stylesheet" href="vendor/css/uikit.min.css">
+    <link rel="stylesheet" href="source/css/style.css">
+    <link rel="stylesheet" href="source/css/responsive.css">
+    
+
+
+
+
+    
+</head>
+<body>
+
+<!--START HEADER SECTION -->
+<header id="hero" class="scrollify">
+
+<nav uk-sticky="top:200; animation: uk-animation-slide-top">
+    <div class="row">
+    <!--Website Logo-->
+   <a href="index.html"> <img class="logo" src="source/img/logo.png" alt="Yeasin Hossain Logo"></a>
+    <!---menu icon-->
+    <i class="fa fa-bars menu-bar" onclick="openNav()"></i>
+    </div>
+</nav>
+<div id="particles-js"></div>
+<div class="row">
+    <!--hero text box-->
+<div class="hero-text" >
+
+    <div uk-scrollspy="cls: uk-animation-scale-up; repeat:true">
+        <h3 style="color: #fff; margin-bottom: 5px; animation-duration: 1s" >Hello, this is</h3>
+    </div>
+    
+    <h1  style="color: #fff" class="ah-headline">
+        <span class="ah-words-wrapper">
+            <b class="is-visible">MD: Yeasin</b>
+            <b>a designer</b>
+            <b>a developer</b>
+            <b>WP expert</b>
+        </span>
+    </h1>
+
+    <div uk-scrollspy="cls: uk-animation-scale-up; repeat:true">
+        <span style="animation-duration: 1s;" >#Web Designer #Web Developer #WordPress Expert</span>
+    </div>
+    
+</div>
+
+<div class="scroll-down">
+    <a href="#about">
+       <i class="fas fa-chevron-down"></i>
+    </a>
+</div>
+</div>
+</header>
+
+<!--code for menu-->
+<div id="menu">
+   <div class="row">
+       
+    <!--menu close button-->
+    <i onclick="closeNav()" class="fa fa-times"></i>
+    <div class="main-menu">
+        <ul>
+            <li><a onclick="closeNav()"  href="#hero">home</a></li>
+            <li><a  onclick="closeNav()" href="#about">about</a></li>
+            <li><a onclick="closeNav()" href="#process">process</a></li>
+            <li><a onclick="closeNav()"  href="#experience">experience</a></li>
+            <li><a onclick="closeNav()"  href="#portfolio">portfolio</a></li>
+            <li><a onclick="closeNav()"  href="#testimonial">testimonial</a></li>
+            <li><a onclick="closeNav()"  href="#footer">contact</a></li>
+        </ul>
+    </div>
+     </div>
+</div>
+<!--END HEADER SECTION-->
+    
+
+<!-- START ABOUT SECTION -->
+<section id="about" class="scrollify">
+<div class="row">
+<div class="about-grid-container">
+    <div class="about-grid-item" uk-scrollspy="cls: uk-animation-slide-left-medium" style="animation-duration: 1s;">
+        <img src="source/img/paul.jpg" alt="Paul Lapkin's Image">
+    </div>
+
+    <div class="about-grid-item " uk-scrollspy="cls: uk-animation-slide-right-medium" style="animation-duration: 1s;">
+        <h2>Hi, I'm MD: Yeasin a Full-Stack Web Developer</h2>
+
+        <p style="margin: 25px 0;">
+             Thanks for reaching out to my portfolio website. Hi there I will design a
+professional eye-catching website for your business. I'm a PHP and WordPress Developer with multiple years of experience (since-2014). I can build your dream website as per your needs. Your happiness is my first commitment. 
+        </p>
+
+        <p>
+            I can handle both front-end and back-end projects very professionally. I take a reasonable price from my every clients. Hire me for your projects and get discounts!
+        </p>
+
+        <div uk-scrollspy="cls: uk-animation-shake; repeat: true">
+            <a class="btn"  style="text-decoration: none; animation-duration: 1s;" href="#footer">Hire Me!</a>
+        </div>
+        
+    </div>
+</div>
+</div>
+</section>
+<!-- END ABOUT SECTION -->
+
+<!-- START WORK PROCESS SECTION -->
+<section id="process" class="scrollify">
+<div class="row">
+    <h2 class="style-h2">My Working Process</h2>
+    <p>Hi, I'm MD: Yeasin a Full-Stack Web Developer</p>
+
+<div class="process-grid-container" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500;">
+    <div class="process-grid-item design" uk-scrollspy-class="uk-animation-slide-bottom" style="animation-duration: 1s;">
+        <i class="fa fa-magic"></i>
+        <h4>Design</h4>
+    </div>
+    <div class="process-grid-item development" uk-scrollspy-class="uk-animation-slide-top" style="animation-duration: 1s;">
+        <i class="fa fa-file-code"></i>
+        <h4>Development</h4>
+    </div>
+    <div class="process-grid-item wordpress" uk-scrollspy-class="uk-animation-slide-bottom" style="animation-duration: 1s;">
+        <i class="fab fa-wordpress-simple"></i>
+        <h4>WordPress</h4>
+
+    </div>
+    <div class="process-grid-item ecommerce" uk-scrollspy-class="uk-animation-slide-top" style="animation-duration: 1s;">
+        <i class="fas fa-cart-plus"></i>
+        <h4>E-commerce</h4>
+    </div>
+</div>
+</div>
+</section>
+<!-- END WORK PROCESS SECTION -->
+
+
+<!-- START EXPERIENCE SECTION -->
+<section id="experience" class="scrollify">
+<div class="row">
+<div class="work-gird-container">
+
+    <!-- work experience first col -->
+    <div class="work-grid-item" uk-scrollspy="cls: uk-animation-slide-left-medium; delay: 200" style="animation-duration: 1s;">
+        <h2 style="color: #fff">Work Experience</h2>
+        <h5 style="color: #fff">Web Development</h5>
+
+        <p class="date">OCT 2018 - Continue</p>
+        <p class="work-description">
+           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </p>
+        <hr>
+
+        <h5 style="color: #fff">Web Design</h5>
+        <p class="date">Sep 2015 - Continue</p>
+        <p class="work-description">
+           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </p>
+
+    </div>
+    <!-- work experience second col -->
+    <div class="work-grid-item" uk-scrollspy="cls: uk-animation-slide-right-medium; delay: 200" style="animation-duration: 1s;">
+        <h2 style="color: #fff">Education</h2>
+        <h5 style="color: #fff">Maddison University</h5>
+
+        <p class="date">OCT 2014 - Jan 2016</p>
+        <p class="work-description">
+           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </p>
+        <hr>
+
+        <h5 style="color: #fff">Max Design & Art Institute</h5>
+        <p class="date">Feb 2016 - Apr 2017</p>
+        <p class="work-description">
+           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </p>
+    </div>
+
+</div>
+</div>
+</section>
+<!-- END EXPERIENCE SECTION -->
+
+<!-- PORTFOLIO SECTION START -->
+<section id="portfolio" class="scrollify">
+<div class="row">
+    <h2 class="style-h2">My Latest Works</h2>
+    <p>Here are some of my latest works</p>
+    
+    <div class="filter-btn">
+        <button type="button" data-filter="all">All</button>
+    <button type="button" data-filter=".design">Web Design</button>
+    <button type="button" data-filter=".develop">Web Developemnt</button>
+    <button type="button" data-filter=".wp">WordPress</button>
+    </div>
+    
+<div class="portfolio-grid-container" uk-lightbox uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500;" style="animation-duration: 1s;">
+
+    <div class="mix design develop portfolio-grid-item">
+        <a href="source/img/lw1.jpg" data-caption="Portfolio item 1">
+            <img src="source/img/lw1.jpg" alt="Portfolio item">
+        </a>
+    </div>
+    <div class="mix develop portfolio-grid-item" >
+        <a href="source/img/lw2.jpg" data-caption="Portfolio item 2">
+            <img src="source/img/lw2.jpg" alt="Portfolio item">
+        </a>
+    </div>
+    <div class="mix wp develop portfolio-grid-item" >
+        <a href="source/img/lw3.jpg" data-caption="Portfolio item 3">
+            <img src="source/img/lw3.jpg" alt="Portfolio item">
+        </a>
+    </div>
+    <div class="mix design portfolio-grid-item" >
+        <a href="source/img/lw4.jpg" data-caption="Portfolio item 4">
+            <img src="source/img/lw4.jpg" alt="Portfolio item">
+        </a>
+    </div>
+    <div class="mix wp portfolio-grid-item" >
+        <a href="source/img/lw5.jpg" data-caption="Portfolio item 5">
+            <img src="source/img/lw5.jpg" alt="Portfolio item">
+        </a>
+    </div>
+    <div class="mix develop portfolio-grid-item" >
+        <a href="source/img/lw6.jpg" data-caption="Portfolio item 6">
+            <img src="source/img/lw6.jpg" alt="Portfolio item">
+        </a>
+    </div>
+    <div class="mix design develop portfolio-grid-item" >
+        <a href="source/img/lw7.jpg" data-caption="Portfolio item 7">
+            <img src="source/img/lw7.jpg" alt="Portfolio item">
+        </a>
+    </div>
+
+</div>
+</div>
+</section>
+<!-- PORTFOLIO SECTION END -->
+
+
+
+<!-- START TESTIMONIAL SECTION -->
+<section id="testimonial" class="scrollify">
+<div class="row">
+<div class="testimonial-item" uk-scrollspy="cls: uk-animation-slide-right-medium; delay: 200" style="animation-duration: 1s;">
+    <div class="qoute">
+        <img src="source/img/quote.png" alt="Quote">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+    </div>
+
+    <img src="source/img/signature.png" alt="client signature" class="signature">
+
+    <h5 class="name">Deniel Croft</h5>
+    <p class="post">Creative Designer, Levy</p>
+</div>
+</div>
+</section>
+<!-- END TESTIMONIAL SECTION -->
+
+
+<!-- contact section start -->
+<section id="footer" class="scrollify">
+<div class="row">
+<div class="footer-grid-container" uk-lightbox uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500;">
+    <!-- the contact form -->
+     <div class="footer-grid-item" uk-scrollspy-class="uk-animation-slide-left" style="animation-duration: 1s;">
+         <div class="form">
+            <h4 style="color: #fff">leave a message</h4>
+            <form action="#" method="post">
+                <!-- name field -->
+                <div style="margin: 0" class="name">
+                    <input type="text" id="name" placeholder="Name*" required="">
+                </div>
+
+                <!-- email field -->
+                <div class="email">
+                    <input type="email" id="email" placeholder="Email*" required="">
+                </div>
+                <!-- subject field -->
+                <div class="subject">
+                    <input type="text" id="subject" placeholder="Subject">
+                </div>
+
+                <!-- message -->
+                <div class="message">
+                    <textarea required="" rows="8" id="message" placeholder="Your message*"></textarea>
+                </div>
+
+                <div uk-scrollspy="cls: uk-animation-shake; repeat: true">
+                    <input value="Submit" type="submit" class="btn">
+                </div>
+                
+
+            </form>
+         </div>
+     </div>
+     
+     <!-- address -->
+     <div class="footer-grid-item" uk-scrollspy-class="uk-animation-slide-top" style="animation-duration: 1s;">
+         <div class="address">
+             <h4 style="color: #fff">address</h4>
+             <p>Village: Patanish, Post: Patanish, Thana: Hajigang, Zila: Chandpur, Country: Bangladesh</p>
+         </div>
+     </div>
+
+     <!-- phone numbers -->
+     <div class="footer-grid-item" uk-scrollspy-class="uk-animation-slide-right" style="animation-duration: 1s;">
+         <div class="phone">
+             <h4 style="color: #fff">phone</h4>
+             <p>+8801882465952</p>
+             <p>+8801879808353</p>
+         </div>
+     </div>
+
+     <!-- email addess -->
+     <div class="footer-grid-item" uk-scrollspy-class="uk-animation-slide-bottom" style="animation-duration: 1s;">
+         <div class="email-address">
+             <h4 style="color: #fff">Email</h4>
+             <p>yeasinhossainstudent@gmail.com</p>
+             <p>info.yeasinhossain@gmail.com</p>
+         </div>
+     </div>
+</div>
+</div>  
+</section>
+<!-- contact section end -->
+<footer class="scrollify">
+<div class="row">
+    <div class="social-icons">
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="mailto:yeasinhossainstudent@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="copyright">Copyright &copy; <a href="">MD: Yeasin.</a> All rights reserved 2021</div>
+    <div class="totop">
+        <div uk-totop uk-scroll>
+            <a href="#" ></a>
+        </div>
+        
+    </div>
+</div>
+</footer>
+<!-- contact section end -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="vendor/js/particles.min.js"></script>
+<script src="vendor/js/app.js"></script>
+<script src="vendor/js/jquery.animatedheadline.min.js"></script>
+<script src="vendor/js/uikit.min.js"></script>
+<script src="vendor/js/uikit-icons.min.js"></script>
+<script src="vendor/js/mixitup.min.js"></script>
+<script src="vendor/js/jquery.scrollify.js"></script>
+
+<script src="source/js/main.js"></script>
+    
+</body>
+</html>
